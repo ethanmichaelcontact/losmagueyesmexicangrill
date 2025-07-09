@@ -37,6 +37,28 @@ body {
 
 }
 
+#relatedDiv {
+
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+#nearbyP {
+
+  font-size: 0.9em;
+  font-style: italic;
+
+}
+
+#tryImg {
+
+  min-width: 20%;
+  max-width: 33.33%;
+  border-radius: 8px;
+
+}
+
 #taglineDiv {
   
   color: rgba(0, 0, 0, 0.25);
