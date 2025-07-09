@@ -1,0 +1,45 @@
+body {
+  
+  font-family: sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 40px 10px;
+  
+}
+
+#bodyDiv {
+
+  background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+#headerDiv {
+
+  font-size: calc(24px + 1vh);
+  
+}
+
+#subHeadDiv {
+
+  font-size: calc(18px + 1vh);
+
+}
+
+#forwardDiv {
+
+  font-size: calc(12px + 1vh);
+
+}
+
+#redirectDiv {
+
+  text-align: center;
+
+}
+
+#taglineDiv {
+  
+  color: rgba(0, 0, 0, 0.25);
+  font-size: calc(8px + 1vh);
+
+}
