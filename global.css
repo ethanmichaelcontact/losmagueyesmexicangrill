@@ -59,8 +59,8 @@ body {
 
 #tryImg {
 
-  min-height: 20%;
-  max-height: 25%;
+  min-height: 20vh;
+  max-height: 25vh;
   border-radius: 8px;
 
 }
