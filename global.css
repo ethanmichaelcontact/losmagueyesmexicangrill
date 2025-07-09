@@ -59,8 +59,8 @@ body {
 
 #tryImg {
 
-  min-width: 20%;
-  max-width: 33.33%;
+  min-height: 20%;
+  min-height: 25%;
   border-radius: 8px;
 
 }
