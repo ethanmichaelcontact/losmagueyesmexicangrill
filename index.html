@@ -20,6 +20,8 @@
   
   <body>
 
+    <div id="preBodyDiv"></div>
+
     <div id="bodyDiv">
     
       <div id="headerDiv">To: Los Magueyes Mexican Grill</div>
@@ -57,6 +59,8 @@
       
       document.addEventListener("DOMContentLoaded", function() {
 
+        const preBodyDiv = document.getElementById("preBodyDiv");
+
         atOptions = {
           'key' : '6cdaac38840c80504c7397f60a727b35',
           'format' : 'iframe',
@@ -67,7 +71,7 @@
         
         var ad1 = document.createElement("script");
         ad1.src = "//www.highperformanceformat.com/6cdaac38840c80504c7397f60a727b35/invoke.js";
-        document.body.appendChild(ad1);
+        preBodyDiv.appendChild(ad1);
     
         var adDiv = document.createElement("div");
         adDiv.id = "container-9b8ec32c95738f991ae3b796c05ca5eb";
