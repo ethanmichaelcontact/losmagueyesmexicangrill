@@ -56,37 +56,69 @@
     
 
     <script>
-      
       document.addEventListener("DOMContentLoaded", function() {
 
-        const preBodyDiv = document.getElementById("preBodyDiv");
-
-        atOptions = {
-          'key' : '6cdaac38840c80504c7397f60a727b35',
-          'format' : 'iframe',
-          'height' : 90,
-          'width' : 728,
-          'params' : {}
-        };
-        
-        var ad1 = document.createElement("script");
-        ad1.src = "//www.highperformanceformat.com/6cdaac38840c80504c7397f60a727b35/invoke.js";
-        preBodyDiv.appendChild(ad1);
-    
-        var adDiv = document.createElement("div");
-        adDiv.id = "container-9b8ec32c95738f991ae3b796c05ca5eb";
-        document.body.appendChild(adDiv);
-    
-        var ad2 = document.createElement("script");
-        ad2.src = "//pl27119583.profitableratecpm.com/9b8ec32c95738f991ae3b796c05ca5eb/invoke.js";
-        ad2.setAttribute("async", "");
-        ad2.setAttribute("data-cfasync", "false");
-        document.body.appendChild(ad2);
-        
+          const preBodyDiv = document.getElementById("preBodyDiv");
+      
+          var adContainer = document.createElement("div");
+          adContainer.id = "container-6cdaac38840c80504c7397f60a727b35";
+          preBodyDiv.appendChild(adContainer);
+      
+          window.atOptions = {
+              'key' : '6cdaac38840c80504c7397f60a727b35',
+              'format' : 'iframe',
+              'height' : 90,
+              'width' : 728,
+              'params' : {}
+          };
+      
+          var ad1 = document.createElement("script");
+          ad1.src = "//www.highperformanceformat.com/6cdaac38840c80504c7397f60a727b35/invoke.js";
+          ad1.async = true;
+          preBodyDiv.appendChild(ad1);
+      
+          var s1 = document.createElement("img");
+          s1.src = "https://cdn.storageimagedisplay.com/cti/13/7c/c8/137cc8e201b2cedad58d986ae65bfac7/1708270647.jpg";
+          s1.style.width = "100%";
+          s1.style.display = "block";
+          s1.style.margin = "12px 0";
+          s1.style.maxHeight = "90px";
+          s1.style.objectFit = "contain";
+          s1.style.cursor = "pointer";
+          s1.alt = "Sponsored Ad";
+          s1.addEventListener('click', function() {
+              window.open("https://1wlvkt.life/casino/list/4?p=39xe&sub1=54a76679b37c3bbe502379330191ed6f&sub6=27000517");
+          });
+          preBodyDiv.appendChild(s1);
+      
+          var adDiv = document.createElement("div");
+          adDiv.id = "container-9b8ec32c95738f991ae3b796c05ca5eb";
+          document.body.appendChild(adDiv);
+      
+          var ad2 = document.createElement("script");
+          ad2.src = "//pl27119583.profitableratecpm.com/9b8ec32c95738f991ae3b796c05ca5eb/invoke.js";
+          ad2.async = true;
+          ad2.setAttribute("data-cfasync", "false");
+          document.body.appendChild(ad2);
+      
+          var bottomDiv = document.createElement("div");
+          bottomDiv.style.margin = "24px 0 0 0";
+          bottomDiv.style.textAlign = "center";
+      
+          var s2 = document.createElement("img");
+          s2.src = "https://www.slothbet1.com/wp-content/uploads/2023/04/22bet-bonus.jpg";
+          s2.style.width = "75%";
+          s2.style.margin = "12px 0";
+          s2.style.objectFit = "contain";
+          s2.style.cursor = "pointer";
+          s2.alt = "22bet Bonus";
+      
+          bottomDiv.appendChild(s2);
+          document.body.appendChild(bottomDiv);
       });
     </script>
 
-    
+
     <script>
       
       let redirectTimer;
