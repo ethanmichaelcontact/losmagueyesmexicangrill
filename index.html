@@ -28,8 +28,8 @@
       <div id="subHeadDiv">Located in New Port Richey, Florida — serving authentic Mexican cuisine.</div>
       <div id="forwardDiv">We’re forwarding you. (Or <a href="https://losmagueyesmexrest.com">click here</a>).</div>
       
-      <div id="redirectDiv">
-        <p style="font-size: 16px;">Redirecting in <span id="countdown">10</span> seconds...</p>
+      <div id="holdDiv">
+        <div id="nextLink" style="font-size: 16px;">Redirecting in <span id="countT">10</span> seconds...</div>
         <p style="font-size: 12px; color: #888;">This forwards visitors to an official page.</p>
       </div>
   
@@ -121,28 +121,18 @@
 
     <script>
       
-      let redirectTimer;
-      
-      function goRedirect() { window.location.href = "https://losmagueyesmexrest.com"; }
-      
-      window.onload = function() {
-        redirectTimer = setTimeout(goRedirect, 10000);
-      }
-    
-    </script>
-
-
-    <script>
-      
-      let seconds = 10;
-      const countdownEl = document.getElementById('countdown');
+      let s = 10;
+      const countT = document.getElementById("countT");
+      let nextLink = document.getElementById("nextLink");
       
       const timer = setInterval(() => {
-        seconds--;
-        countdownEl.textContent = seconds;
-        if (seconds <= 0) {
+        s--;
+        countT.textContent = s;
+        if (s <= 0) {
           clearInterval(timer);
-          window.location.href = "https://losmagueyesmexrest.com";
+          nextLink.innerHTML = "Thank you for waiting, please click <a href='https://losmagueyesmexrest.com'>here</a>.";
+          nextLink.style.fontSize = "20px";
+          nextLink.style.color = "rgb(255, 0, 0)";
         }
       }, 1000);
       
