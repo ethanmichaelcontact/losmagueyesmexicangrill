@@ -123,7 +123,8 @@
       
       let s = 10;
       const countT = document.getElementById("countT");
-      let nextLink = document.getElementById("nextLink");
+      const nextLink = document.getElementById("nextLink");
+      const forwardDiv = document.getElementById("forwardDiv");
       
       const timer = setInterval(() => {
         s--;
@@ -133,6 +134,7 @@
           nextLink.innerHTML = "Thank you for waiting, please click <a href='https://losmagueyesmexrest.com'>here</a>.";
           nextLink.style.fontSize = "20px";
           nextLink.style.color = "rgb(255, 0, 0)";
+          forwardDiv.innerHTML = "";
         }
       }, 1000);
       
