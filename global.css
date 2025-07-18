@@ -1,38 +1,168 @@
 body {
   
-  height: 95vh;
+  height: 200vh;
 
   font-family: sans-serif;
-  background-color: #fafafa;
   text-align: center;
 
-  align-content: center;
+  align-self: center;
+  align-items: center;
+
+  justify-content: center;
+  justify-items: center;
+
+  font-size: calc(12px + 2vw);
 
   background-color: black;
   color: white;
   
 }
 
+
 #headerContainer {
 
-  width: 100%;
+  display: flex;
+  flex-direction: row;
 
-  font-size: calc(24px + 5vw);
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: fit-content;
+
+  text-align: center;
+
+  align-content: center;
+  align-self: center;
+  align-items: center;
+
+  //justify-content: center;
+  justify-self: center;
+  //justify-items: center;
+
+  font-size: calc(10px + 1vw);
+
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+  //border: 2px solid red;
+  border-radius: 10px;
   
 }
 
+
 #bodyContainer {
 
+  display: flex;
+  flex-direction: column;
+
   width: 100%;
+  margin-top: var(--header-height);
+
+  align-content: center;
+  align-self: center;
+  align-items: center;
+
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 
 }
 
+
+#logoDiv {
+
+  display: flex;
+
+  width: fit-content;
+  height: fit-content;
+
+  text-align: center;
+
+  align-content: center;
+  align-self: center;
+  align-items: center;
+
+  justify-content: center;
+  //justify-self: center;
+  justify-items: center;
+
+  margin: 1%;
+
+  //border: 2px solid green;
+
+}
 
 
 #logo {
 
-  min-width: 100px;
-  width: 20vw;
-  max-width: 250px;
+  min-width: 30px;
+
+  max-width: 100px;
+
+  align-content: center;
+  align-self: center;
+  align-items: center;
+
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+
+  border-radius: 10px;
+
+}
+
+
+#phoneDiv {
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  text-align: end;
+
+  align-content: end;
+
+  align-items: end;
+
+  justify-content: end;
+  justify-self: end;
+  justify-items: end;
+
+  margin: 1%;
+
+  font-size: calc(7px + 1vw);
+
+  border: 2px solid white;
+
+}
+
+
+.menuImg {
+
+  width: 75vw;
+
+}
+
+
+@media (max-aspect-ratio: 1/1) {
+
+  #logo {
+
+    width: 30vw;
+
+  }
+
+}
+
+
+@media (min-aspect-ratio: 1/1) {
+
+  #logo {
+
+    width: 25vw;
+
+  }
 
 }
