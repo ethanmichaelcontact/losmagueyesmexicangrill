@@ -10,6 +10,7 @@ html {
 body {
 
   font-family: sans-serif;
+
   text-align: center;
 
   align-self: center;
@@ -51,7 +52,6 @@ body {
   align-self: center;
   align-items: center;
 
-  //justify-content: center;
   justify-self: center;
   justify-items: center;
 
@@ -60,7 +60,6 @@ body {
   background-color: rgb(255, 255, 255);
   color: black;
 
-  //border: 2px solid red;
   border-radius: 10px;
   
 }
@@ -99,12 +98,9 @@ body {
   align-items: center;
 
   justify-content: center;
-  //justify-self: center;
   justify-items: center;
 
   margin: 1%;
-
-  //border: 2px solid green;
 
 }
 
@@ -175,6 +171,19 @@ body {
 
   }
 
+  #phoneDiv {
+
+  text-align: center;
+
+  align-content: center;
+  align-items: center;
+
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+
+  }
+
   .menuImg {
 
     width: 100vw;
@@ -191,6 +200,20 @@ body {
     width: 25vw;
 
   }
+
+  #phoneDiv {
+
+  text-align: end;
+
+  align-content: end;
+  align-items: end;
+
+  justify-content: end;
+  justify-self: end;
+  justify-items: end;
+
+}
+
 
   .menuImg {
 
