@@ -24,6 +24,7 @@ body {
 
   position: fixed;
   top: 0;
+  left: 0;
 
   width: 99vw;
   height: fit-content;
@@ -36,7 +37,7 @@ body {
 
   //justify-content: center;
   justify-self: center;
-  //justify-items: center;
+  justify-items: center;
 
   font-size: calc(10px + 1vw);
 
