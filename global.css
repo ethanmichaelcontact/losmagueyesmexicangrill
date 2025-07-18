@@ -173,14 +173,16 @@ body {
 
   #phoneDiv {
 
-  text-align: center;
+    text-align: center;
 
-  align-content: center;
-  align-items: center;
+    align-content: center;
+    align-items: center;
 
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+    font-size: calc(10px + 1vw);
 
   }
 
@@ -203,16 +205,18 @@ body {
 
   #phoneDiv {
 
-  text-align: end;
+    text-align: end;
 
-  align-content: end;
-  align-items: end;
+    align-content: end;
+    align-items: end;
 
-  justify-content: end;
-  justify-self: end;
-  justify-items: end;
+    justify-content: end;
+    justify-self: end;
+    justify-items: end;
 
-}
+    font-size: calc(16px + 1vw);
+
+  }
 
 
   .menuImg {
