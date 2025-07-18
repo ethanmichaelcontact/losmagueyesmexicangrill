@@ -154,7 +154,8 @@ body {
 
 .menuImg {
 
-  width: 75vw;
+  width: 100vw;
+  max-width: 2048px;
 
   margin: 1%;
 
@@ -186,12 +187,6 @@ body {
 
   }
 
-  .menuImg {
-
-    width: 100vw;
-
-  }
-
 }
 
 
@@ -215,13 +210,6 @@ body {
     justify-items: end;
 
     font-size: calc(16px + 1vw);
-
-  }
-
-
-  .menuImg {
-
-    width: 75vw;
 
   }
 
