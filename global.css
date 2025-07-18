@@ -143,6 +143,10 @@ body {
 
   width: 75vw;
 
+  margin: 1%;
+
+  border-radius: 20px;
+
 }
 
 
@@ -154,6 +158,12 @@ body {
 
   }
 
+  .menuImg {
+
+    width: 100vw;
+
+  }
+
 }
 
 
@@ -162,6 +172,12 @@ body {
   #logo {
 
     width: 25vw;
+
+  }
+
+  .menuImg {
+
+    width: 75vw;
 
   }
 
