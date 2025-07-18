@@ -29,14 +29,27 @@
       </div>
 
       <div id="phoneDiv">
-        <p>7041 US-19, New Port Richey: <a href="tel:+17272647768">(727) 264-7768</a>
-        <br>9100 Ulmerton Rd, Largo: <a href="tel:+17272707005">(727) 270-7005</a></p>
+
+        <p id="headerInfo">7041 US-19, New Port Richey <a href="tel:+17272647768">📞 (727) 264-7768</a></p>
+
       </div>
       
     </div>
 
     
     <div id="bodyContainer">
+
+      <div id="mapContainer">
+
+        <iframe id="mapsiFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.263378493793!2d-82.7309392245128!3d28.2600295758703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c29025c455445b%3A0x162d1e0adbd072a3!2sLos%20Magueyes%20Mexican%20Grill!5e0!3m2!1sen!2sus!4v1752826962889!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <button class="mapButton" id="nprButton">NEW PORT RICHEY</button>
+        <button class="mapButton" id="largoButton">LARGO</button>
+        <p style="font-size: 50%; font-style: italic;">Select Restaurant Location</p>
+
+      </div>
+
+      <h1 style="margin-top:10%;">MENU</h1>
 
       <img class="menuImg" id="menu1" src="1.png"></img>
       <img class="menuImg" id="menu2" src="2.png"></img>
@@ -45,6 +58,13 @@
       <img class="menuImg" id="menu5" src="5.png"></img>
       <img class="menuImg" id="menu6" src="6.png"></img>
       
+    </div>
+
+
+    <div id="footerContainer" style="width:100%">
+
+
+
     </div>
     
 
@@ -114,6 +134,9 @@
       });
 
     </script>
+
+
+    <script src="global.js"></script>
 
     
 
