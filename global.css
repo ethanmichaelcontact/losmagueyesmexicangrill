@@ -1,8 +1,20 @@
 body {
   
+  height: 95vh;
+
   font-family: sans-serif;
   background-color: #fafafa;
   text-align: center;
+
+  align-content: center;
+  
+}
+
+#headerContainer {
+
+  width: 100%;
+
+  font-size: calc(24px + 5vh);
   
 }
 
@@ -12,8 +24,12 @@ body {
 
 }
 
-#headerContainer {
 
-  font-size: calc(24px + 1vh);
-  
+
+#logo {
+
+  min-width: 100px;
+  width: 20vw;
+  max-width: 250px;
+
 }
