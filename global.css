@@ -219,6 +219,23 @@ body {
 }
 
 
+#footerContainer {
+
+  width: 100%;
+
+  font-size: calc(6px + 1vw);
+  color: rgba(255, 255, 255, 0.1);
+
+}
+
+
+#ethanMichael {
+
+  text-decoration: none;
+
+}
+
+
 @media (max-aspect-ratio: 1/1) {
 
   #logo {
