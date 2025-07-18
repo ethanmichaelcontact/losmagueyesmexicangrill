@@ -3,72 +3,17 @@ body {
   font-family: sans-serif;
   background-color: #fafafa;
   text-align: center;
-  padding: 40px 10px;
   
 }
 
-#bodyDiv {
+#bodyContainer {
 
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
 
 }
 
-#headerDiv {
+#headerContainer {
 
   font-size: calc(24px + 1vh);
   
-}
-
-#subHeadDiv {
-
-  font-size: calc(18px + 1vh);
-
-}
-
-#forwardDiv {
-
-  font-size: calc(12px + 1vh);
-
-}
-
-#holdDiv {
-
-  text-align: center;
-
-}
-
-#relatedDiv {
-
-  text-align: center;
-  margin-top: 15px;
-
-}
-
-#nearbyP {
-
-  font-size: 1.5em;
-  font-style: italic;
-
-}
-
-#tryP {
-
-  font-size: 1.25em;
-
-}
-
-#tryImg {
-
-  min-height: 20vh;
-  max-height: 25vh;
-  border-radius: 8px;
-
-}
-
-#taglineDiv {
-  
-  color: rgba(0, 0, 0, 0.25);
-  font-size: calc(8px + 1vh);
-
 }
