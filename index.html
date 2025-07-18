@@ -14,8 +14,6 @@
     
     <title>Los Magueyes Mexican Grill</title>
 
-    
-    
   </head>
   
   
@@ -24,18 +22,28 @@
 
     <div id="headerContainer">
 
-      <p>UNDER</p>
+      <div id="logoDiv">
 
-      <img id="logo" src="logo.png"></img>
+        <img id="logo" src="logo.png"></img>
 
-      <p>CONSTRUCTION</p>
+      </div>
+
+      <div id="phoneDiv">
+        <p>7041 US-19, New Port Richey: <a href="tel:+17272647768">(727) 264-7768</a>
+        <br>9100 Ulmerton Rd, Largo: <a href="tel:+17272707005">(727) 270-7005</a></p>
+      </div>
       
     </div>
 
     
     <div id="bodyContainer">
 
-      
+      <img class="menuImg" id="menu1" src="1.png"></img>
+      <img class="menuImg" id="menu2" src="2.png"></img>
+      <img class="menuImg" id="menu3" src="3.png"></img>
+      <img class="menuImg" id="menu4" src="4.png"></img>
+      <img class="menuImg" id="menu5" src="5.png"></img>
+      <img class="menuImg" id="menu6" src="6.png"></img>
       
     </div>
     
@@ -89,6 +97,24 @@
       ]
     }
     </script>
+
+
+    <script>
+
+      window.addEventListener("load", () => {
+        const header = document.getElementById("headerContainer");
+        const headerHeight = header.offsetHeight + 50;
+        document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+      });
+
+      window.addEventListener("resize", () => {
+        const header = document.getElementById("headerContainer");
+        const headerHeight = header.offsetHeight + 50;
+        document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+      });
+
+    </script>
+
     
 
   </body>
