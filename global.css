@@ -1,3 +1,12 @@
+html {
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
 body {
 
   font-family: sans-serif;
@@ -8,6 +17,11 @@ body {
 
   justify-content: center;
   justify-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
 
   font-size: calc(12px + 2vw);
 
@@ -26,8 +40,10 @@ body {
   top: 0;
   left: 0;
 
-  width: 99vw;
+  width: 100%;
   height: fit-content;
+
+  box-sizing: border-box;
 
   text-align: center;
 
