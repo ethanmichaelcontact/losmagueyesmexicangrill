@@ -135,15 +135,15 @@ body {
 
   width: 100%;
 
-  text-align: end;
+  text-align: center;
 
-  align-content: end;
+  align-content: center;
 
-  align-items: end;
+  align-items: center;
 
-  justify-content: end;
-  justify-self: end;
-  justify-items: end;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 
   margin: 1%;
 
