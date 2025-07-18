@@ -83,11 +83,24 @@ body {
   
 }
 
+
 #headerInfo {
+
+  margin: 0;
 
   text-decoration: none;
 
 }
+
+
+#headerPhone {
+
+  margin: 0;
+
+  text-decoration: none;
+
+}
+
 
 #logoDiv {
 
