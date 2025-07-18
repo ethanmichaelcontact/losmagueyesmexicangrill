@@ -150,7 +150,7 @@ body {
 
   margin: 1%;
 
-  font-size: calc(10px + 1vw);
+  font-size: calc(16px + 1vw);
 
   border: 2px solid white;
 
@@ -225,8 +225,6 @@ body {
     justify-self: center;
     justify-items: center;
 
-    font-size: calc(10px + 1vw);
-
   }
 
   .menuImg {
@@ -256,8 +254,6 @@ body {
     justify-content: end;
     justify-self: end;
     justify-items: end;
-
-    font-size: calc(16px + 1vw);
 
   }
 
